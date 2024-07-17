@@ -1,0 +1,69 @@
+/* nav1 */
+nav{
+display: flex;
+flex-flow: row nowrap;
+text-transform: capitalize;
+position: scroll;
+z-index:9000;
+}
+.s1{
+    display: flex;
+    margin-left: 143px;
+}
+
+
+.logo{
+    width: 34px;
+    height: 37px;
+    position: relative;
+    top: 17px;
+    margin-right: 12px;
+
+}
+
+.quickstart{
+
+    text-transform: capitalize;
+    font-size: 29px;
+    position: relative;
+    top: -6px;
+    color: var(--heading-color);
+    font-family: cairo;
+    top: -17px;
+    color: #676565;
+}
+.s2{
+    margin-left: 361px;
+    position: relative;
+    top: 23px;
+}
+.s2 a{
+    text-decoration: none;
+    color: black;
+    
+    font-family: cairo;
+}
+.s2 select{
+    position: relative;
+    left: -20px;
+    border: none;
+}
+.pricing .marge .getstart{
+    background-color: #388da8;
+    padding: 6px 17px;
+    border-radius: 48px;
+    color: white;
+}
+/*  s2 */
+
+/* global */
+.marge{
+    margin-right: 44px;
+}
+.editbtn{
+    background-color: #388da8;
+            padding: 6px 17px;
+            border-radius: 48px;
+            color: white;
+            text-decoration: none;
+}
